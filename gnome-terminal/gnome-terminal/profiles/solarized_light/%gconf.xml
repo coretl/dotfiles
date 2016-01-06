@@ -72,5 +72,5 @@
 	<entry name="scrollbar_position" mtime="1451994049" type="string">
 		<stringvalue>right</stringvalue>
 	</entry>
-	<entry name="bold_color_same_as_fg" mtime="1452070265" type="bool" value="true"/>
+	<entry name="bold_color_same_as_fg" mtime="1452091127" type="bool" value="false"/>
 </gconf>
