@@ -1,0 +1,9 @@
+[submodule "bash/liquidprompt"]
+	path = bash/liquidprompt
+	url = https://github.com/nojhan/liquidprompt.git
+[submodule "bash/dircolors-solarized"]
+	path = bash/dircolors-solarized
+	url = https://github.com/huyz/dircolors-solarized
+[submodule "bash/Menlo-for-Powerline"]
+	path = bash/Menlo-for-Powerline
+	url = https://github.com/abertsch/Menlo-for-Powerline

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_mnemonics" mtime="1211381634" type="bool" value="false"/>
+	<entry name="use_menu_accelerators" mtime="1211381633" type="bool" value="false"/>
+	<entry name="default_profile" mtime="1451994208" type="string">
+		<stringvalue>solarized_light</stringvalue>
+	</entry>
+	<entry name="profile_list" mtime="1451994202" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>black</stringvalue>
+		</li>
+		<li type="string">
+			<stringvalue>solarized_light</stringvalue>
+		</li>
+	</entry>
+</gconf>
