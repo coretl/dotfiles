@@ -106,6 +106,7 @@ let g:airline#extensions#tabline#enabled = 1
 " General settings
 """"""""""""""""""
 
+set hidden              " Allow switching buffers without writing to disk
 set backspace=indent,eol,start " Make backspace delete over line breaks
 set ruler
 set showcmd
