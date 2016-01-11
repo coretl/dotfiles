@@ -20,7 +20,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'hynek/vim-python-pep8-indent'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'klen/python-mode'
 
 call vundle#end()
 
@@ -103,6 +105,57 @@ let g:airline_detect_paste=1
 " Show airline for tabs too
 let g:airline#extensions#tabline#enabled = 1
 
+" syntastic settings
+" """"""""""""""""""
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
+
+" let g:syntastic_always_populate_loc_list = 1
+" let g:syntastic_auto_loc_list = 1
+" let g:syntastic_check_on_open = 1
+" let g:syntastic_check_on_wq = 0
+" let g:syntastic_error_symbol = '✘'
+" let g:syntastic_warning_symbol = "▲"
+
+" python-mode settings
+" """"""""""""""""""""
+
+let g:pymode_rope = 0
+
+" Documentation
+let g:pymode_doc = 1
+let g:pymode_doc_key = 'K'
+
+"Linting
+let g:pymode_lint = 1
+let g:pymode_lint_ignore = 'E402'
+
+" Auto check on save
+let g:pymode_lint_unmodified = 1
+let g:pymode_lint_on_fly = 1
+
+let g:pymode_lint_todo_symbol = '▲'
+let g:pymode_lint_comment_symbol = '✎'
+let g:pymode_lint_visual_symbol = 'RR'
+let g:pymode_lint_error_symbol = '✘'
+let g:pymode_lint_info_symbol = 'II'
+let g:pymode_lint_pyflakes_symbol = 'FF'
+
+"" Enable breakpoints plugin
+let g:pymode_breakpoint = 1
+let g:pymode_breakpoint_bind = '<leader>b'
+
+let g:pymode_syntax = 0
+let g:pymode_folding = 0
+let g:pymode_lint_cwindow = 0
+
+" YCM settings
+" """"""""""""
+
+map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+
 " General settings
 """"""""""""""""""
 
@@ -112,6 +165,10 @@ set ruler
 set showcmd
 set incsearch
 set hlsearch
+
+" always show signs
+autocmd BufEnter * sign define dummy
+autocmd BufEnter * execute 'sign place 9999 line=1 name=dummy buffer=' . bufnr('')
 
 " With this on, need to press shift before pasting from middle click
 set mouse=a
