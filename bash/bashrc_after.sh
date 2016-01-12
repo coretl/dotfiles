@@ -15,6 +15,7 @@ shopt -s histappend
 #export PS1="$(c 37)\D{%H:%M}$(c 30)[$(c 36)\u@\h \W$(c 0)]\$ "
 #unset c
 #export PROMPT_COMMAND='history -a;printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"'
+export LP_CACHE_SLOW_CMDS=1
 source $script_dir/liquidprompt/liquidprompt
 
 # need this for vim airline
