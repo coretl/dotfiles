@@ -103,7 +103,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_detect_paste=1
 
 " Show airline for tabs too
-let g:airline#extensions#tabline#enabled = 1
+" let g:airline#extensions#tabline#enabled = 1
 
 " syntastic settings
 " """"""""""""""""""
@@ -165,6 +165,8 @@ set ruler
 set showcmd
 set incsearch
 set hlsearch
+set relativenumber
+set scrolloff=3
 
 " always show signs
 autocmd BufEnter * sign define dummy
