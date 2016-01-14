@@ -4,6 +4,6 @@
 [submodule "bash/dircolors-solarized"]
 	path = bash/dircolors-solarized
 	url = https://github.com/huyz/dircolors-solarized
-[submodule "bash/Menlo-for-Powerline"]
-	path = bash/Menlo-for-Powerline
-	url = https://github.com/abertsch/Menlo-for-Powerline
+[submodule "bash/powerline-fonts"]
+	path = bash/powerline-fonts
+	url = https://github.com/powerline/fonts

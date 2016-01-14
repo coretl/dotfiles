@@ -43,9 +43,9 @@
 	<entry name="background_image" mtime="1451994049" type="string">
 		<stringvalue></stringvalue>
 	</entry>
-	<entry name="default_show_menubar" mtime="1451994049" type="bool" value="true"/>
-	<entry name="font" mtime="1452604982" type="string">
-		<stringvalue>Menlo for Powerline 10</stringvalue>
+	<entry name="default_show_menubar" mtime="1452787479" type="bool" value="false"/>
+	<entry name="font" mtime="1452787952" type="string">
+		<stringvalue>Ubuntu Mono derivative Powerline 12</stringvalue>
 	</entry>
 	<entry name="delete_binding" mtime="1451994049" type="string">
 		<stringvalue>escape-sequence</stringvalue>

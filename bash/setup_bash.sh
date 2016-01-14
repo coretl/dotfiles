@@ -14,6 +14,6 @@ fi
 
 # add fonts
 mkdir -p ~/.fonts
-cp $script_dir/Menlo-for-Powerline/Menlo* ~/.fonts
+cp $script_dir/powerline-fonts/UbuntuMono/Ubu* ~/.fonts
 fc-cache -vf ~/.fonts
 
