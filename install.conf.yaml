@@ -1,7 +1,6 @@
 - clean: ['~']
 
 - link:
-    ~/.bashrc: bashrc
     ~/.vimrc: vimrc
-
+    ~/.liquidpromptrc: liquidpromptrc.sh
 
