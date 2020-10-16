@@ -2,5 +2,6 @@
 
 - link:
     ~/.vimrc: vimrc
+    ~/.bash_aliases: bashrc.sh
     ~/.liquidpromptrc: liquidpromptrc.sh
 

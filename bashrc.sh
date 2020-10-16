@@ -1,4 +1,4 @@
-script_dir=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+script_dir=$(cd $(dirname $(readlink -f ${BASH_SOURCE[0]})) && pwd)
 
 export EDITOR=vim
 
