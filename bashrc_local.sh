@@ -15,6 +15,8 @@ HISTSIZE=10000000
 HISTFILESIZE=10000000
 # Append each command to history, don't overwrite
 shopt -s histappend
+# Ensure Gnome Terminal shows the terminal title correctly
+PROMPT_COMMAND='echo -ne "\033]2;${USER}@${HOSTNAME}: ${PWD/$HOME/~}\007"'
 # Append each command to history immediately after it ran, dont' wait until the session ends
 PROMPT_COMMAND="history -a; history -c; history -r;$PROMPT_COMMAND"
 # Eliminate adjacent history lines
