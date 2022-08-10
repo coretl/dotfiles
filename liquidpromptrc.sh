@@ -172,6 +172,12 @@ LP_ENABLE_SCREEN_TITLE=0
 # Use different colors for the different hosts you SSH to
 LP_ENABLE_SSH_COLORS=0
 
+# Disable the shell level
+LP_ENABLE_SHLVL=0
+
+# Enable container display
+LP_ENABLE_CONTAINER=1
+
 # Specify a list of complete and colon (":") separated paths in which, all vcs
 # will be disabled
 LP_DISABLED_VCS_PATH=""
